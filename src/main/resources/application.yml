@@ -1,0 +1,11 @@
+server:
+  port: 8800
+  servlet:
+    context-path:
+logging:
+  level:
+    root: info
+  file:
+    name: logs/log.log
+
+debug: false
