@@ -10,7 +10,7 @@ http://maven.apache.org/ASSEMBLY/2.0.0 ">
     <fileSets>
         <fileSet>
             <directory>${project.basedir}/src/main/resources</directory>
-            <outputDirectory>/config</outputDirectory>
+            <outputDirectory>/</outputDirectory>
             <includes>
                 <!--            <include>application.properties</include>-->
                 <!--            <include>application-${package.environment}.properties</include>-->
