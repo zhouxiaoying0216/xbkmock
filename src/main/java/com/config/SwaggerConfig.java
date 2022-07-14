@@ -1,3 +1,4 @@
+/*
 package com.config;
 
 import org.springframework.context.annotation.Bean;
@@ -10,13 +11,19 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+*/
+/**//*
+
+*/
 /**
  * @Author zxy
  * @create 2019/10/31 18:07
  * <p>
  * * @Configuration // SpringBoot 专门用于加载“配置类”的标签
  * * @EnableSwagger2 // 开启 swagger-ui
- */
+ *//*
+
+
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
@@ -44,3 +51,4 @@ public class SwaggerConfig {
     }
 
 }
+*/

@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
-@Api(description = "接口文档")
+//@Api(description = "接口文档")
 @RestController
 @Slf4j
 public class SuccessQueryMock {
 
-    @ApiOperation(value = "查询结果接口", httpMethod = "GET")
+//    @ApiOperation(value = "查询结果接口", httpMethod = "GET")
     @GetMapping(value = "/query")
     public String successQueryMock(@RequestParam Map request){
 //          int orderid;

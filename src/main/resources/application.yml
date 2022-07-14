@@ -1,7 +1,5 @@
 server:
   port: 8800
-  servlet:
-    context-path:
 logging:
   level:
     root: info
@@ -9,3 +7,6 @@ logging:
     name: logs/log.log
 
 debug: false
+spring:
+  application:
+    name: demomock

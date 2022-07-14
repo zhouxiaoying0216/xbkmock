@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
-@Api(description = "接口文档")
+//@Api(description = "接口文档")
 @RestController
 @Slf4j
 public class SuccessQueryoMock {
 
-    @ApiOperation(value = "券码激活接口", httpMethod = "POST")
+//    @ApiOperation(value = "券码激活接口", httpMethod = "POST")
     @PostMapping(value = "/queryo")
     public String successOrderoMock(@RequestParam Map request){
         log.info(request.toString());

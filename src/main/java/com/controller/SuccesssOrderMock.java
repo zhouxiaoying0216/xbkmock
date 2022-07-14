@@ -12,13 +12,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
-@Api(description = "接口文档")
+//@Api(description = "接口文档")
 @RestController
 @RequestMapping(value = "/")
 @Slf4j
 public class SuccesssOrderMock {
 
-    @ApiOperation(value = "下单接口", httpMethod = "POST")
+//    @ApiOperation(value = "下单接口", httpMethod = "POST")
     @PostMapping(value = "order")
     public String successOrderMock( @RequestParam Map request){
 
